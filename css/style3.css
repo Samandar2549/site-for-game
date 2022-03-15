@@ -1,0 +1,275 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header .bg{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 170px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-items li a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    /* margin: 0 20px; */
+    padding: 15px 15px;
+}
+.menu-items li a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.games{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-inline-start: 0px;
+}
+.menuusti:hover .games{
+    display: block;
+}
+.sarlavha{
+    display: inline-block;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 560px;
+    font-size: 45px;
+}
+.orange{
+    color: orange;
+}
+.forsarlavha{
+    text-align: center;
+}
+.main{
+    background-color: #0F0F0F;
+    width: 100%;
+    height: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    color: white;
+}
+.forhr{
+    display: inline-block;
+    width: 70%;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid orange;
+    color: orange;
+    margin-right: 0;
+    /* margin-left: 50px; */
+    margin-top: 0;
+}
+.againlogo{
+    padding: 40px 0 20px 0;
+}
+.present{
+    width: calc(50% - 20px);
+    padding: 40px 0;
+}
+.icons{
+    width: 100%;
+}
+.std{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.forlittlemenu{
+    width: 100%;
+    height: auto;
+    background-color: #0C0C0C;
+    border-left: 1px solid orange;
+}
+.littlemenu li{
+    padding: 10px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    margin: 15px 0;
+    background-color: #0B0B0B;
+}
+.forbox{
+    width: calc(45% - 20px);
+}
+.text{
+    width: calc(55% - 20px);
+}
+.tohr{
+    width: 20%;
+    margin-inline-start: 0;
+    border: 1px solid orange;
+}
+.card{
+    width: calc(25% - 20px);
+    height: auto;
+    text-align: center;
+}
+.imgcard{
+    width: 100%;
+}
+.card p{
+    color: #71827E;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.studio{
+    width: 100%;
+    margin-bottom: 0;
+}
+.brick{
+    width: calc(100%/3 - 5px);
+}
+.brick img{
+    width: 100%;
+}
+.hireimg{
+    width: 20%;
+    margin-top: 50px;
+}
+.othhr{
+    width: 70%;
+    height: auto;
+    /* border: 2px solid orange; */
+}
+.job{
+    text-align: center;
+    border-left: 2px solid orange;
+    margin: 50px 0;
+}
+.job button{
+    border: none;
+    color: white;
+    background-color: orange;
+    width: 40%;
+    height: 30px;
+}
+.mainlttr{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.lttr{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    /* margin-top: 50px;
+    margin-bottom: 90px; */
+}
+.lttr hr{
+    margin: auto;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid orange;
+}
+.lttr input{
+    border: none;
+    width: 68%;
+    height: 30px;
+    background-color: #070707;
+    color: #696E63;
+    padding: 0;
+}
+.lttr button{
+    width: 30%;
+    height: 30px;
+    color: white;
+    background-color: orange;
+    padding: 0;
+    border: 0;
+}
+.lttr hr, input, button{
+    padding: 10px 0;
+}
+.getin{
+    width: 15%;
+    height: auto;
+}
+.mssg{
+    width: calc(50% - 30px);
+    background-color: #0C0C0C;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.inmssg{
+    width: 100%;
+    background-color: #0C0C0C;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid orange;
+    padding: 15px 0;
+}
+.submit{
+    width: 45%;
+    background-color: orange;
+    border: 0;
+    color: white;
+}
+.mssg span{
+    font-size: 20px;
+}
+.mssg a, address{
+    text-decoration: none;
+    color: orange;
+}
+.mssg iframe{
+    width: 100%;
+    height: 260px;
+    margin: 20px 0;
+}
+footer{
+    width: 100%;
+    background-color: #070707;
+    border-top: 2px solid orange;
+    color: white;
+}
+footer span{
+    line-height: 80px;
+}
+

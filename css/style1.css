@@ -1,0 +1,16 @@
+.box{
+    width: 100%;
+    position: relative;
+}
+.box img{
+    width: 100%;
+}
+.text{
+    width: 400px;
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 30%;
+    /* right: 0; */
+}
